@@ -14,7 +14,7 @@ func printUsage() {
 
 // MARK: - options
 
-let arguments = Process.arguments
+let arguments = CommandLine.arguments
 if 3 > arguments.count {
     printUsage()
     exit(0)
